@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:Wc3HeroPicker"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="Hero Picker v1.0" Height="350" Width="600" Icon="Images/Abo.Jpeg">
-    <StackPanel Background="#FFE2E2E2">
-        <Grid Height="318" Margin="10,0">
-            <GroupBox Header="Race" HorizontalAlignment="Left" Height="138" Margin="10,10,0,0" VerticalAlignment="Top" Width="102">
+        Title="Hero Picker v1.0" Height="407" Width="600" Icon="Images/Abo.Jpeg">
+    <StackPanel Background="#FFE2E2E2" Height="437" VerticalAlignment="Top">
+        <Grid Height="373" Margin="10,0">
+            <GroupBox Header="Race" HorizontalAlignment="Left" Height="138" Margin="462,10,0,0" VerticalAlignment="Top" Width="102">
                 <StackPanel HorizontalAlignment="Left" Height="119" Margin="0,0,0,-4" VerticalAlignment="Top" Width="98">
                     <RadioButton Content="Nightelf" Height="17" Margin="10,10,20,0" IsChecked="True"/>
                     <RadioButton Content="Human" Height="17" Margin="10,10,20,0" />
@@ -17,6 +17,125 @@
                     <RadioButton Content="Undead" Height="17" Margin="10,10,20,0" />
                 </StackPanel>
             </GroupBox>
+            <Button Content="Roll!" HorizontalAlignment="Left" Margin="462,153,0,0" VerticalAlignment="Top" Width="102" Height="26"/>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,40,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,70,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,100,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,130,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,160,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,190,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,220,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,250,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,40,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,280,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,310,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="25" Margin="10,340,0,0" VerticalAlignment="Top" Width="206">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="24" Margin="0,4,0,0"/>
+                <Label Content="Label" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.824,-0.692" Width="146" Height="25"/>
+                <Label Content="%"  HorizontalAlignment="Center" Margin="24,0,161,0" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+
         </Grid>
 
     </StackPanel>

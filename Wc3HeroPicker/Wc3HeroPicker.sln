@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wc3HeroPicker.Frontend", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wc3HeroPicker.Library", "Wc3HeroPicker.Library\Wc3HeroPicker.Library.csproj", "{C9A22EC9-F087-4B44-8D51-8396E9181301}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wc3HeroPicker.Tests", "Wc3HeroPicker.Tests\Wc3HeroPicker.Tests.csproj", "{8B5748E5-AA6E-4E27-99C4-37AC76BC53CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9A22EC9-F087-4B44-8D51-8396E9181301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A22EC9-F087-4B44-8D51-8396E9181301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A22EC9-F087-4B44-8D51-8396E9181301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5748E5-AA6E-4E27-99C4-37AC76BC53CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5748E5-AA6E-4E27-99C4-37AC76BC53CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5748E5-AA6E-4E27-99C4-37AC76BC53CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5748E5-AA6E-4E27-99C4-37AC76BC53CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

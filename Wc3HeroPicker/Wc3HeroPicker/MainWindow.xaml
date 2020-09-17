@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wc3HeroPicker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        ResizeMode="NoResize"
+        Title="Hero Picker v1.0" Height="350" Width="600" Icon="Images/Abo.Jpeg">
+    <StackPanel Background="#FFE2E2E2">
+        <Grid Height="318" Margin="10,0">
+            <GroupBox Header="Race" HorizontalAlignment="Left" Height="138" Margin="10,10,0,0" VerticalAlignment="Top" Width="102">
+                <StackPanel HorizontalAlignment="Left" Height="119" Margin="0,0,0,-4" VerticalAlignment="Top" Width="98">
+                    <RadioButton Content="Nightelf" Height="17" Margin="10,10,20,0" IsChecked="True"/>
+                    <RadioButton Content="Human" Height="17" Margin="10,10,20,0" />
+                    <RadioButton Content="Orc" Height="17" Margin="10,10,20,0" />
+                    <RadioButton Content="Undead" Height="17" Margin="10,10,20,0" />
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+    </StackPanel>
 </Window>
